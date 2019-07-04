@@ -11,3 +11,7 @@ API
 .. automodule:: utils.static_vars
    :members:
 
+
+.. automodule:: utils.stopwatch
+   :members:
+
