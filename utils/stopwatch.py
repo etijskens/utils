@@ -8,7 +8,6 @@ A context manager class for timing a piece of code.
 """
 #===============================================================================
 from timeit import default_timer as timer
-from time import sleep
 #===================================================================================================
 class StopWatch:
     """

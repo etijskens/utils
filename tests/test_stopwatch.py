@@ -27,7 +27,7 @@ if not ('.' in sys.path or os.getcwd() in sys.path):
     sys.path.insert(0, '.')
 #===============================================================================
 from utils import StopWatch
-from utils import __version__
+# from utils import __version__
 #===============================================================================
 def test_create_StopWatch():
     tmr = StopWatch()

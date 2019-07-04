@@ -15,3 +15,7 @@ API
 .. automodule:: utils.stopwatch
    :members:
 
+
+.. automodule:: utils.titleline
+   :members:
+
