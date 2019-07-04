@@ -25,7 +25,6 @@ if not ('.' in sys.path or os.getcwd() in sys.path):
     echo(f"Adding '.' to sys.path.\n")
     sys.path.insert(0, '.')
 #===============================================================================
-from utils import __version__
 from utils import title_line
 #===============================================================================
 # tests
@@ -53,7 +52,7 @@ def test_title_line():
 if __name__=="__main__":
     the_test_you_want_to_debug = test_title_line
 
-    from execution_trace import trace
-    with trace(f"__main__ running {the_test_you_want_to_debug}","-*# finished #*-",singleline=False,combine=False):
+    from utils import taskcm
+    with taskcm(f"__main__ running {the_test_you_want_to_debug}","-*# finished #*-",singleline=False,combine=False):
         the_test_you_want_to_debug()
 #===============================================================================

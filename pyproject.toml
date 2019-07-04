@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "utils"
-version = "0.0.0"
+version = "1.0.0"
 description = "Some simple Python tools ."
 authors = ["Engelbert Tijskens <engelbert.tijskens@uantwerpen.be>"]
 license = "MIT"

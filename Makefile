@@ -102,7 +102,7 @@ dist: clean ## builds source and wheel package
 #-------------------------------------------------------------------------------
 # Install package utils in the current Python
 # environment.
-install: clean 
+install: clean dist
 	pip install dist/$(module_name)-$(version)-py3-none-any.whl
 
 #-------------------------------------------------------------------------------
